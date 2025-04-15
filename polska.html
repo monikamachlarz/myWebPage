@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podróże Moniki - Polska</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">STRONA GŁÓWNA</a></li>
+            <li><a href="europa.html">EUROPA</a></li>
+            <li><a href="polska.html">POLSKA</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+            <li>
+                <div class="search-container">
+                    <span class="search-icon" onclick="toggleSearchBar()"><i class="fa fa-search"></i></span>
+                    <label for="searchBar"></label><input type="text" class="search-bar" id="searchBar"
+                                                          placeholder="Szukaj...">
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</header>
+<main>
+    <section class="hero">
+        <img class="hero-image" src="src/photos/header.jpg" alt="Monika">
+        <div class="hero-text">
+            <h1>Podróże Moniki</h1>
+            <p>Odkryj piękno Europy i Polski</p>
+        </div>
+    </section>
+    <section class="article">
+        <div class="article-text-block">
+            <h2 id="Gańśk">Gdańsk na weekend</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, mollis non nisi nec, congue
+                vehicula arcu. In eget arcu at massa tincidunt ornare ac a turpis. Curabitur ac lectus vitae nulla
+                molestie consectetur. Quisque blandit et nunc ut dictum. Morbi id enim sit amet urna auctor ultrices
+                vitae eu leo. Morbi vitae arcu felis. Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Aliquam cursus ex vitae bibendum euismod. Etiam vestibulum at arcu eu
+                faucibus.</p>
+        </div>
+
+        <div class="article-gallery-row">
+            <img src="src/photos/gdansk2.jpg" alt="Gdańsk" class="article-gallery-image">
+            <img src="src/photos/gdansk4.jpg" alt="Gdańsk" class="article-gallery-image">
+        </div>
+
+        <div class="article-text-block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, mollis non nisi nec, congue
+                vehicula arcu. In eget arcu at massa tincidunt ornare ac a turpis. Curabitur ac lectus vitae nulla
+                molestie consectetur. Quisque blandit et nunc ut dictum. Morbi id enim sit amet urna auctor ultrices
+                vitae eu leo. Morbi vitae arcu felis. Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Aliquam cursus ex vitae bibendum euismod. Etiam vestibulum at arcu eu
+                faucibus.</p>
+        </div>
+        <div class="article-gallery-row">
+            <img src="src/photos/gdansk5.jpg" alt="Gdańsk" class="article-gallery-image">
+            <img src="src/photos/gdansk6.jpg" alt="Gdańsk" class="article-gallery-image">
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Monika Machlarz</p>
+    <div class="social-links">
+        <a href="https://www.facebook.com/twojprofil" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/twojprofil" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/twojprofil" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podróże Moniki - Strona główna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">STRONA GŁÓWNA</a></li>
+            <li><a href="europa.html">EUROPA</a></li>
+            <li><a href="polska.html">POLSKA</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+            <li>
+                <div class="search-container">
+                    <span class="search-icon" onclick="toggleSearchBar()"><i class="fa fa-search"></i></span>
+                    <label for="searchBar"></label><input type="text" class="search-bar" id="searchBar"
+                                                          placeholder="Szukaj...">
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</header>
+<main>
+    <section class="hero">
+        <img class="hero-image" src="src/photos/header.jpg" alt="Monika">
+        <div class="hero-text">
+            <h1>Podróże Moniki</h1>
+            <p>Odkryj piękno Europy i Polski</p>
+        </div>
+    </section>
+    <section class="about-me">
+        <div class="about-me-content">
+            <div class="about-me-image">
+                <img src="src/photos/o_mnie.jpg" alt="Monika"/>
+            </div>
+            <div class="about-me-text">
+                <h2>O mnie</h2>
+                <p>
+                    Witaj! Nazywam się Monika i jestem pasjonatką podróży. Kocham odkrywać nowe miejsca, zarówno w
+                    Polsce, jak i za granicą. Na tej stronie dzielę się moimi doświadczeniami, zdjęciami i wskazówkami
+                    dotyczącymi najpiękniejszych miejsc w Europie i Polsce.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="articles">
+        <h2>NAJNOWSZE WPISY Z MOICH PODRÓŻY!</h2>
+        <h3>W tym miejscu znajdziesz najnowsze relacje z moich wyjazdów, zestawienia atrakcji i przydatne
+            informacje.</h3>
+        <div class="articles-wrapper">
+            <div class="article-card">
+                <img src="src/photos/tirol9.jpg" alt="Tirol" class="article-image">
+                <h3>Innsbruck i Stubaier Gletscher</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie pretium est, semper ornare orci
+                    aliquet at. Etiam eget turpis.</p>
+                <a href="europa.html#Stubai" class="read-more-btn">Czytaj dalej</a>
+            </div>
+            <div class="article-card">
+                <img src="src/photos/gdansk3.jpg" alt="Gdańsk" class="article-image">
+                <h3>Gdańsk na weekend</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim nibh vel ante
+                    lacinia, eget vulputate nulla tristique. In ullamcorper tellus ac ipsum tempor sagittis.</p>
+                <a href="polska.html#Gdańsk" class="read-more-btn">Czytaj dalej</a>
+            </div>
+            <div class="article-card">
+                <img src="src/photos/brac9.jpg" alt="Chorwacja" class="article-image">
+                <h3>Chorwackie wyspy</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nisl augue. Nam vulputate
+                    magna eget neque aliquam.</p>
+                <a href="europa.html#Croatia" class="read-more-btn">Czytaj dalej</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Monika Machlarz</p>
+    <div class="social-links">
+        <a href="https://www.facebook.com/twojprofil" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/twojprofil" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/twojprofil" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
